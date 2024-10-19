@@ -41,8 +41,11 @@ header {
 main {
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     height: calc(100vh - 120px);
     overflow-y: auto;
+    text-align: center;
 }
 
 footer {
@@ -84,9 +87,18 @@ footer {
     margin: 20px;
 }
 
+.profile-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .profile img {
     width: 100px; /* Adjust size as needed */
     height: 100px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the circle */
+}
+
+.spacer {
+    margin: 20px 0; /* Adds spacing between sections */
 }
