@@ -24,6 +24,7 @@ header {
 .logo button {
     font-size: 24px;
     border: none;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -34,6 +35,7 @@ header {
     margin-left: 15px;
     padding: 10px 15px;
     border: none;
+    cursor: pointer;
 }
 
 main {
@@ -61,6 +63,7 @@ footer {
 
 .back-to-top {
     margin-right: auto;
+    cursor: pointer;
 }
 
 .call-to-action {
@@ -73,4 +76,5 @@ footer {
 .social-media {
     display: flex;
     gap: 15px;
+    cursor: pointer;
 }
