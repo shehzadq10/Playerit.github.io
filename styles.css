@@ -136,4 +136,42 @@ th, td {
     height: auto;
     margin: 0 20px;
 }
+/* Features Section */
+.features-section {
+    margin: 40px 0;
+}
 
+.features-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.features-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features-section li {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Premium Section */
+.premium-section {
+    margin: 40px 0;
+}
+
+.premium-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.premium-section p {
+    font-size: 18px;
+    color: #666;
+}
