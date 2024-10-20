@@ -1,7 +1,8 @@
 let messageCount = 0;
 
 function scrollToTop() {
-    window.scrollTo({
+    const mainContent = document.getElementById('content');
+    mainContent.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
