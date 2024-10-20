@@ -1,68 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Layout</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>logo-Plinkr</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <button>Logo</button>
+            <a href="index.html">
+                <button>Logo</button>
+            </a>
         </div>
         <nav class="nav-links">
-            <button>About</button>
-            <button>Pricing</button>
-            <button>Contact Us</button>
-            <button>Our Team</button>
+            <a href="about.html">
+                <button>About</button>
+            </a>
+            <a href="pricing.html">
+                <button>Pricing</button>
+            </a>
+            <a href="contactus.html">
+                <button>Contact Us</button>
+            </a>
+            <a href="team.html">
+                <button>Our Team</button>
+            </a>
         </nav>
     </header>
-
-    <main>
-        <section class="cta-section">
-            <h1>Home Page</h1>
+    <main id="content">
+        <h1>Home Page</h1>
+        
+        <section class="call-to-action-section">
             <button class="call-to-action">Get Started Now</button>
         </section>
 
-        <!-- Features Section -->
+        <div class="spacer"></div>
+
+        <section class="premium-section">
+            <h2>Premium Features</h2>
+            <ul>
+                <li>Exclusive stickers</li>
+                <li>Advanced profile searching</li>
+                <li>Premium account logo</li>
+            </ul>
+        </section>
+
         <section class="features-section">
             <h2>Features</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>Description of feature 1.</p>
-            </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>Description of feature 2.</p>
-            </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>Description of feature 3.</p>
-            </div>
-        </section>
-
-        <!-- Premium Section -->
-        <section class="premium-section">
-            <h2>Premium?</h2>
-            <p>1. Exclusive stickers</p>
-            <p>2. Advanced profile searching</p>
-            <p>3. Premium account logo</p>
+            <ul>
+                <li>Access to exclusive stickers to personalize your profile.</li>
+                <li>Advanced profile searching to find the right connections faster.</li>
+                <li>Special premium account logo for increased visibility.</li>
+            </ul>
         </section>
     </main>
-
+    
     <footer>
         <div class="footer-content">
-            <div class="back-to-top">
-                <a href="#top">Back to Top</a>
-            </div>
+            <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+            <button class="call-to-action">Call to Action</button>
             <div class="social-media">
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">X</a>
-                <a href="#" target="_blank">Instagram</a>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://x.com" target="_blank">X</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
             </div>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
+
 
