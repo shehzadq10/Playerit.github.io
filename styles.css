@@ -115,3 +115,24 @@ th, td {
     padding: 10px;
     text-align: center;
 }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section img {
+    width: 150px;
+    height: auto;
+    margin: 0 20px;
+}
